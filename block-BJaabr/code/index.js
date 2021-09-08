@@ -31,6 +31,7 @@ convertToString(21);
 let returnValue = convertToString(23);
 
 // - What is the typeof returnValue
+sd;
 // typeof returnValue is "string"
 
 /* 1. Add one to the given value
