@@ -27,7 +27,7 @@ isInRange(1, 10, 19); // false
 
 // - Write a Function Decleration for above problem
 function isInRange(lower, upper, number) {
-  if (lower < upper > number) {
+  if ((lower < upper, upper > number, number > lower)) {
     return true;
   } else {
     return false;
@@ -53,8 +53,9 @@ Obese: BMI is 30 or more
 
 */
 
-function calculateBMI() {
-  // Your code
+function calculateBMI(weight, height) {
+if(let bmi = weight / (height * height))
+
 }
 
 /* 3. appropiateDrinks
